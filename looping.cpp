@@ -10,5 +10,5 @@ int main() {
         cout << "Teknologi Informasi UMY" << i << endl;
         cout << endl;
     }
-    
+    srand(time(0));
 }
