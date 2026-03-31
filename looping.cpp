@@ -39,6 +39,18 @@ int main() {
 using namespace std;
 
 int main() {
-    float nilB,nilM, rerata;
+    float nilM,nilB, rerata;
     string status;
+
+    cout << "Masukkan Nilai matematika: ";
+    cin >> nilM;
+    cout << "Masukkan Nilai Bahasa Inggris: ";
+    cin >> nilB;
+    rerata = (nilM + nilB) / 2;
+    if (!(rerata < 60)) {
+        status = "Lulus";
+    } else {
+        status = "Tidak Lulus";
+    }
+    cout << "Status kelulusan: " << status << ",dengan nilai rerata: " << rerata << endl;
 }
