@@ -75,3 +75,7 @@ int main() {
     }
     cout << "Status kelulusan: " << status << ",dengan nilai rerata: " << rerata << endl;
 }
+
+// Logika AND   
+#include <iostream>
+using namespace std;    
