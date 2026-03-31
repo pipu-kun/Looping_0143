@@ -79,3 +79,13 @@ int main() {
 // Logika AND   
 #include <iostream>
 using namespace std;    
+
+int main() {
+    float nilM,nilB, rerata;
+    string status;
+
+    cout << "Masukkan Nilai matematika: ";
+    cin >> nilM;
+    cout << "Masukkan Nilai Bahasa Inggris: ";
+    cin >> nilB;
+    rerata = (nilM + nilB) / 2;
