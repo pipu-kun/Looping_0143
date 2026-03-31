@@ -11,4 +11,11 @@ int main() {
         cout << endl;
     }
     srand(time(0));
+
+    cout << "Perulangan While " << endl;
+    x = 1 + rand() % 10;
+    while (x <= 5) {
+        cout << "Bilangan acak: " << x << endl;
+        x =rand() % 10;
+    }
 }
